@@ -1,0 +1,135 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#142b4c;background:#f7faff;font-size:17px;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}.app-shell{display:flex;min-height:100vh}.sidebar{width:265px;flex-shrink:0;background:#fff;border-right:1px solid #e2ebf8;padding:30px 18px;display:flex;flex-direction:column;gap:9px}.brand{font-size:25px;font-weight:800;color:#153e7a;letter-spacing:-.8px;margin:4px 12px 48px}.brand-mark{color:#2563eb;font-size:31px}.sidebar-label{color:#7c91ac;font-size:12px;font-weight:800;letter-spacing:1.5px;padding:0 15px;margin-bottom:10px}.nav-item{border:0;text-decoration:none;background:transparent;display:flex;align-items:center;gap:13px;padding:16px 15px;border-radius:12px;color:#526987;font-weight:650;text-align:left}.nav-item:hover,.nav-item.active{background:#eaf2ff;color:#1555c6}.sidebar-help{margin-top:auto;background:#eff6ff;border:1px solid #dbeafe;border-radius:15px;padding:18px;font-size:14px}.sidebar-help strong{color:#1e40af}.sidebar-help p{color:#64748b;line-height:1.6;margin-bottom:0}.main{width:100%;min-width:0;max-width:1750px;margin:0 auto;padding:0 34px 32px}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e2ebf8;color:#64748b;font-size:15px}.local-badge{color:#1d4ed8;background:#eaf2ff;padding:9px 14px;border-radius:99px;font-weight:650}.hero{display:flex;justify-content:space-between;align-items:center;gap:22px;padding:35px 0}.eyebrow{font-size:13px;font-weight:800;letter-spacing:1.7px;color:#2563eb}.hero h1{font-size:clamp(31px,3vw,45px);letter-spacing:-1.5px;margin:8px 0 9px;color:#102c52}.hero p,.section-title p,.panel-heading p,.transactions-header p{color:#64748b;margin:0;line-height:1.5}.primary-btn{background:#2563eb;border:1px solid #2563eb;color:#fff;border-radius:12px;padding:15px 20px;font-weight:700;display:flex;align-items:center;gap:10px;white-space:nowrap}.primary-btn:hover{background:#1d4ed8}.primary-btn:disabled,.secondary-btn:disabled{opacity:.6;cursor:default}.filters{display:flex;flex-wrap:wrap;gap:16px;align-items:end;background:#fff;border:1px solid #e2ebf8;border-radius:17px;padding:20px;margin-bottom:28px;box-shadow:0 3px 16px #17437a08}.filter-heading{display:flex;gap:9px;align-items:center;font-weight:750;color:#1e40af;align-self:center;margin-right:8px}.filters label{font-size:14px;font-weight:700;color:#526987;display:flex;flex-direction:column;gap:7px}.filters select,.filters input{background:#f8fbff;border:1px solid #dbe6f5;border-radius:9px;padding:11px 12px;color:#153e7a;min-height:46px}.last-update{font-size:13px;color:#7890ab;margin-left:auto;align-self:center}.account-section{margin-bottom:30px}.section-title{margin-bottom:16px}.section-title h2{display:flex;align-items:center;gap:10px;font-size:24px;margin:0 0 7px}.accounts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.account-card{display:flex;flex-direction:column;gap:16px;background:#fff;border:1px solid #dfe9f7;border-radius:16px;padding:23px;min-height:158px;box-shadow:0 3px 16px #17437a08}.account-card>span{font-size:15px;font-weight:700;color:#617b9d;display:flex;align-items:center;gap:9px}.account-card strong{font-size:clamp(25px,2.3vw,34px);letter-spacing:-1px;color:#133c74}.account-card small{font-size:13px;color:#8294aa}.account-card.total{background:linear-gradient(135deg,#2563eb,#1d4ed8);border-color:#2563eb}.account-card.total span,.account-card.total strong,.account-card.total small{color:#fff}.account-dot{width:11px;height:11px;border-radius:50%;display:inline-block}.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:24px}.metric{background:#fff;border:1px solid #e2ebf8;border-radius:16px;padding:23px;display:flex;flex-direction:column;gap:15px;box-shadow:0 3px 16px #17437a08}.metric-label{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#587393;font-weight:700;font-size:15px}.metric-label span{color:#2563eb;background:#eff6ff;padding:9px;border-radius:10px;display:flex}.metric strong{font-size:clamp(23px,2.2vw,34px);color:#163b70;letter-spacing:-.8px}.metric small{font-size:13px;color:#8193a9}.charts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:start;gap:20px;margin-bottom:22px}.panel{background:#fff;border:1px solid #e2ebf8;border-radius:17px;padding:25px;box-shadow:0 3px 16px #17437a08;min-width:0}.panel h2{font-size:22px;margin:0 0 6px;color:#153b70}.donut-layout{display:flex;align-items:center;gap:25px;min-height:260px;margin-top:20px}.donut{width:220px;height:220px;border-radius:50%;display:grid;place-items:center;flex-shrink:0}.donut>div{width:73%;height:73%;background:#fff;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px}.donut small{font-size:11px;color:#8193a9;font-weight:800;letter-spacing:1px}.donut strong{font-size:23px;margin-top:7px;color:#153b70}.legend{flex:1;min-width:0}.legend button{border:0;border-bottom:1px solid #edf2f8;background:transparent;width:100%;display:grid;grid-template-columns:11px minmax(60px,1fr) auto auto;align-items:center;gap:9px;text-align:left;padding:11px 0;font-size:14px}.legend button:hover{background:#f6faff}.legend i{width:10px;height:10px;border-radius:50%}.legend span{overflow-wrap:anywhere}.legend strong{white-space:nowrap;color:#153b70}.legend small{color:#8294aa}.transfer-info{display:flex;align-items:center;gap:15px;background:#edf5ff;color:#1e40af;border:1px solid #dbeafe;padding:18px 22px;border-radius:14px;margin-bottom:26px}.transfer-info strong{font-size:17px}.transfer-info p{margin:5px 0 0;color:#526987;font-size:15px}.transactions-header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:20px}.secondary-btn{display:flex;align-items:center;gap:9px;border:1px solid #cbdcf4;color:#1d4ed8;background:#fff;padding:12px 16px;border-radius:10px;font-weight:700}.search-box{display:flex;align-items:center;gap:10px;border:1px solid #dbe6f5;border-radius:10px;padding:0 15px;margin-bottom:18px;color:#7890ab}.search-box input{padding:14px 0;flex:1;min-width:0;outline:0;border:0;background:transparent}.search-box button{border:0;background:transparent;color:#2563eb;font-weight:700}.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left;white-space:nowrap}th{font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:#7187a4;background:#f6faff;padding:16px 13px}td{padding:18px 13px;border-bottom:1px solid #edf2f8;color:#344f71;font-size:15px}td a{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-weight:650;color:#1d4ed8}.amount{text-align:right;font-weight:750}.positive{color:#16816a}.category-tag{background:#eff6ff;color:#2359ad;padding:7px 11px;border-radius:7px}.movement-tag{background:#eef2f7;color:#526987;padding:7px 11px;border-radius:7px}.movement-tag.ingreso{background:#e7f7f1;color:#16816a}.movement-tag.gasto{background:#fff1f2;color:#b54756}.empty-message{text-align:center;color:#8294aa;padding:25px}.alert{border:1px solid #fecaca;background:#fff5f5;color:#9f1239;padding:15px 18px;border-radius:12px;margin-bottom:18px}.alert.soft{background:#f0f7ff;color:#1d4ed8;border-color:#bfdbfe}.spin{animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}footer{color:#8294aa;font-size:13px;padding:25px 0}@media(max-width:1200px){.charts{grid-template-columns:1fr}}@media(max-width:760px){.app-shell{display:block}.sidebar{width:100%;padding:15px;flex-direction:row;flex-wrap:wrap;align-items:center}.brand{margin:0 20px 0 0}.sidebar-label,.sidebar-help{display:none}.nav-item{padding:10px;font-size:14px}.main{padding:0 15px 25px}.topbar{height:55px}.hero{align-items:flex-start;flex-direction:column;padding:25px 0}.filters{align-items:stretch}.filters label{flex:1;min-width:150px}.last-update{width:100%}.metrics{grid-template-columns:1fr 1fr;gap:10px}.metric{padding:15px}.metric strong{font-size:23px}.donut-layout{flex-direction:column}.donut{width:200px;height:200px}.legend{width:100%}.panel{padding:17px}.transactions-header{align-items:flex-start;flex-direction:column}}@media(max-width:410px){.metrics{grid-template-columns:1fr}.nav-item{font-size:13px}.brand{width:100%}}
+
+.date-range-help{flex-basis:100%;margin:0;font-size:13px;color:#64748b}.chart-filter{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-top:16px;padding:12px;background:#eff6ff;border-radius:10px;font-size:14px;color:#1e40af}.chart-filter strong{overflow-wrap:anywhere}.chart-filter .secondary-btn{font-size:14px;padding:8px 12px}.legend button[aria-pressed="true"]{background:#eaf2ff;box-shadow:inset 3px 0 #2563eb;padding-left:8px}
+
+.portfolio .panel-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.portfolio .panel-heading svg { color: #2563eb; }
+.portfolio-balance {
+  display: grid;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #dbeafe;
+  border-radius: 13px;
+  background: #eff6ff;
+  color: #194783;
+  font-size: 14px;
+}
+.portfolio-balance strong {
+  font-size: clamp(29px, 3vw, 40px);
+  color: #153b70;
+  letter-spacing: -.035em;
+}
+.portfolio-balance small { font-size: 13px; }
+.portfolio-totals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  margin: 16px 0 22px;
+}
+.portfolio-totals dt { margin-bottom: 6px; color: #526987; font-size: 13px; }
+.portfolio-totals dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 3px 8px;
+  margin: 0;
+  font-size: 19px;
+  font-weight: 750;
+}
+.portfolio-totals dd small { font-size: 13px; }
+.portfolio-list-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  color: #526987;
+  font-size: 13px;
+}
+.portfolio-list-heading h3 { margin: 0; color: #153b70; font-size: 16px; }
+.fund-list { list-style: none; margin: 0; padding: 0; }
+.fund-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid #e2ebf8;
+  font-size: 15px;
+}
+.fund-details, .fund-numbers { display: grid; gap: 5px; }
+.fund-details { min-width: 0; overflow-wrap: anywhere; }
+.fund-details small, .fund-change, .portfolio-status { color: #526987; font-size: 13px; }
+.fund-details .fund-issue { color: #875218; }
+.fund-numbers { flex-shrink: 0; justify-items: end; text-align: right; }
+.fund-change { display: inline-flex; align-items: center; gap: 3px; font-weight: 650; }
+.portfolio .positive { color: #14745e; }
+.portfolio .negative { color: #a53448; }
+.portfolio-status { margin: 12px 0 0; line-height: 1.5; }
+.portfolio-balance strong, .portfolio-totals dd, .fund-numbers { font-variant-numeric: tabular-nums; }
+
+@media (min-width: 1201px) {
+  .donut-layout { gap: clamp(14px, 1.5vw, 25px); }
+  .donut { width: min(220px, 42%); height: auto; aspect-ratio: 1; }
+}
+
+.dashboard-layout { flex: 1; min-width: 0; }
+.with-payments { display: grid; grid-template-columns: minmax(0, 1fr) 322px; align-items: start; gap: 0; }
+.payments-panel { margin: 28px 22px 24px 0; padding: 18px; }
+.payments-heading, .portfolio-heading, .month-navigation, .payment-detail, .payments-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.payments-heading { flex-wrap: wrap; }
+.payments-heading h2 { display: flex; gap: 7px; align-items: center; font-size: 19px; margin: 0; }
+.payments-heading h2 svg { color: #2563eb; }
+.payments-heading .secondary-btn, .portfolio-heading .secondary-btn { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+.portfolio-heading { flex-wrap: wrap; }
+.month-navigation { margin: 16px 0 8px; text-transform: capitalize; font-size: 14px; }
+.month-navigation button { padding: 6px; }
+.payments-total { padding: 12px; margin: 14px 0 6px; border-radius: 10px; background: #eff6ff; color: #194783; font-size: 14px; }
+.payments-list { list-style: none; padding: 0; margin: 0; }
+.payment-row { padding: 12px 0; border-bottom: 1px solid #e2ebf8; }
+.payment-row:last-child { border-bottom: 0; }
+.payment-detail { align-items: start; font-size: 14px; }
+.payment-detail > div { display: grid; min-width: 0; gap: 4px; overflow-wrap: anywhere; }
+.payment-detail > div:last-child { text-align: right; flex-shrink: 0; }
+.payment-detail small, .paid-date, .fund-gain { color: #526987; font-size: 12px; }
+.payment-detail .positive { color: #14745e; }
+.paid-date { display: block; margin-top: 8px; }
+.payment-actions { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 7px; }
+.text-button { border: 0; background: transparent; padding: 5px 0; color: #1d4ed8; text-decoration: underline; font-size: 12px; font-weight: 650; }
+.payment-delete { color: #a53448; }
+.action-dialog {
+  width: min(100% - 30px, 470px);
+  max-height: calc(100vh - 30px);
+  overflow: auto;
+  padding: 24px;
+  border: 1px solid #dbe6f5;
+  border-radius: 17px;
+  color: #142b4c;
+  box-shadow: 0 16px 60px #102c5250;
+}
+.action-dialog::backdrop { background: #102c526b; }
+.action-dialog h2 { margin: 0 0 16px; color: #153b70; font-size: 22px; }
+.action-dialog fieldset { display: grid; gap: 12px; min-width: 0; margin: 0 0 16px; padding: 0; border: 0; }
+.action-dialog label { display: grid; gap: 5px; color: #344f71; font-weight: 650; font-size: 14px; }
+.action-dialog input, .action-dialog select { width: 100%; padding: 8px; border: 1px solid #cbdcf4; border-radius: 8px; color: inherit; }
+.action-dialog .checkbox-field { display: flex; align-items: center; }
+.checkbox-field input { width: auto; }
+.dialog-context { margin: 0; font-size: 14px; color: #526987; }
+.dialog-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+
+@media (max-width: 1600px) { .with-payments .charts { grid-template-columns: 1fr; } }
+@media (max-width: 1100px) {
+  .with-payments { display: flex; flex-direction: column; align-items: stretch; }
+  .payments-panel { order: -1; margin: 16px 20px 0; }
+}
+@media (max-width: 460px) { .fund-row { flex-wrap: wrap; } .fund-numbers { justify-items: start; text-align: left; } }

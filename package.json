@@ -1,0 +1,66 @@
+{
+  "name": "gestor-financiero",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio para gestionar finanzas personales con Notion",
+  "author": "Jan Carlos Franco",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "node server/index.js",
+    "server": "node server/index.js --dev",
+    "test": "node tests/server.test.js && node tests/workflows.test.js",
+    "test:electron": "npm run build && electron tests/electron-smoke.cjs",
+    "build": "tsc && vite build",
+    "electron": "npm run build && electron .",
+    "dist": "npm run build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "decimal.js": "^10.6.0",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^45.2.1",
+    "electron-builder": "^26.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.0"
+  },
+  "build": {
+    "appId": "com.gestorfinanciero.app",
+    "productName": "Gestor Financiero",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "server/**/*",
+      ".env",
+      "!**/.env.*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "GestorFinanciero-${version}-Portable.${ext}"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.DS_Store
+release/
+.verify/
+*.tsbuildinfo
+/docs/Consulta_Quefondos.md
+/docs/Implementacion_Mi_Balance.md
+/docs/Consulta_Quefondos.md
+/docs/Implementacion_Mi_Balance.md
